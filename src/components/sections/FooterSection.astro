@@ -25,10 +25,10 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
     <div class="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-5">
       <div class="col-span-full lg:col-span-1">
         <!-- Brand Logo -->
-        <BrandLogo class="h-auto w-32" />
+        <BrandLogo class="h-auto w-32 dark:text-white" />
       </div>
       <!-- An array of links for Product and Company sections -->
-      {
+      <!-- {
         strings.footerLinks.map((section) => (
           <div class="col-span-1">
             <h3 class="font-bold text-neutral-800 dark:text-neutral-200">
@@ -53,9 +53,9 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
             </ul>
           </div>
         ))
-      }
+      } -->
 
-      <div class="col-span-2">
+      <!-- <div class="col-span-2">
         <h3 class="font-bold text-neutral-800 dark:text-neutral-200">
           {sectionThreeTitle}
         </h3>
@@ -66,7 +66,7 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
             {sectionThreeContent}
           </p>
         </form>
-      </div>
+      </div> -->
     </div>
 
     <div
@@ -77,18 +77,18 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
           © <span id="current-year"></span> {SITE.title}. {crafted}
           <a
             class="rounded-lg font-medium underline underline-offset-2 outline-none ring-zinc-500 transition duration-300 hover:text-neutral-700 hover:decoration-dashed focus:outline-none focus-visible:ring dark:ring-zinc-200 dark:hover:text-neutral-300"
-            href="https://sobstvennoai.dev"
+            href="https://github.com/linkb15"
             target="_blank"
-            rel="noopener noreferrer">sobstvennoAI</a
+            rel="noopener noreferrer">Borris</a
           >.
         </p>
       </div>
 
       <!-- Social Brands -->
       <div>
-        <FooterSocialLink url={strings.socialLinks.facebook}
+        <!-- <FooterSocialLink url={strings.socialLinks.facebook}
           ><Icon name="facebookFooter" />
-        </FooterSocialLink>
+        </FooterSocialLink> -->
 
         <FooterSocialLink url={strings.socialLinks.x}
           ><Icon name="xFooter" /></FooterSocialLink
@@ -98,13 +98,13 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
           ><Icon name="githubFooter" />
         </FooterSocialLink>
 
-        <FooterSocialLink url={strings.socialLinks.google}
+        <!-- <FooterSocialLink url={strings.socialLinks.google}
           ><Icon name="googleFooter" />
-        </FooterSocialLink>
+        </FooterSocialLink> -->
 
-        <FooterSocialLink url={strings.socialLinks.slack}
+        <!-- <FooterSocialLink url={strings.socialLinks.slack}
           ><Icon name="slackFooter" />
-        </FooterSocialLink>
+        </FooterSocialLink> -->
       </div>
     </div>
 
