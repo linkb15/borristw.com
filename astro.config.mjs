@@ -35,7 +35,7 @@ export default defineConfig({
       },
     }),
     starlight({
-      title: "ScrewFast Docs",
+      title: "Borris Trendy Wiria",
       defaultLocale: "root",
       locales: {
         root: {
