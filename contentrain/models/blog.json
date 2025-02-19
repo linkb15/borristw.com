@@ -76,5 +76,18 @@
     "options": {},
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "slug",
+    "fieldId": "slug",
+    "modelId": "blog",
+    "componentId": "slug",
+    "options": {
+      "title-field": {
+        "value": true
+      }
+    },
+    "validations": {},
+    "fieldType": "string"
   }
 ]
