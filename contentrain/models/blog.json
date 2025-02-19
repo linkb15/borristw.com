@@ -58,5 +58,14 @@
     "system": true,
     "defaultField": false,
     "modelId": "blog"
+  },
+  {
+    "name": "created_at",
+    "fieldId": "created_at",
+    "modelId": "blog",
+    "componentId": "date-time",
+    "options": {},
+    "validations": {},
+    "fieldType": "date"
   }
 ]
