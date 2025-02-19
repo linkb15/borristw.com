@@ -67,5 +67,14 @@
     "options": {},
     "validations": {},
     "fieldType": "date"
+  },
+  {
+    "name": "content",
+    "fieldId": "content",
+    "modelId": "blog",
+    "componentId": "rich-text-editor",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]
