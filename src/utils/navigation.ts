@@ -3,7 +3,7 @@ const navBarLinks = [
   { name: "Home", url: "/" },
   // { name: "Products", url: "/products" },
   // { name: "Services", url: "/services" },
-  { name: "Blog", url: "https://linkb.hashnode.dev/" },
+  { name: "Blog", url: "https://blog.borristw.com/" },
   // { name: "Contact", url: "/contact" },
 ];
 // An array of links for footer
